@@ -13,8 +13,9 @@ public class Test {
 
 	public static void main(String [] args) {
 		Function f=new F01();
-		Sigma s=new Sigma(f,100,1,2);
+		Sigma s=new Sigma(f,100,0,2);
 		Solver solver=new Solver();
-		System.out.print(solver.solve(s, 0.1));
+		System.out.println(solver.solve(s, 0.1));
+		System.out.println(solver.commonSum(s));
 	}
 }

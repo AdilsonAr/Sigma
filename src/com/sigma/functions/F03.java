@@ -8,7 +8,7 @@ public class F03 implements Function{
 	@Override
 	public double eval(double x) {
 		// TODO Auto-generated method stub
-		return (Math.log(x)/Math.sqrt(x))+Math.exp(x/3);
+		return (Math.log(x)/Math.sqrt(x))+Math.exp(x);
 	}
 
 }

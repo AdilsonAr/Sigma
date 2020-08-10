@@ -8,7 +8,7 @@ public class F02 implements Function{
 	@Override
 	public double eval(double x) {
 		// TODO Auto-generated method stub
-		return Math.sin(x)+Math.pow(x, 1/3);
+		return Math.sin(x)+Math.pow(x,2);
 	}
 
 }
